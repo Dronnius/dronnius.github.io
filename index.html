@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+</head>
+
 <body>
 
 
 <h1>This is a Heading</h1>
-<p>This is a paragraph</p>
+<h6>This heading is much smaller </h6>
+<h3 style="font-size:400%; font-family:Comic sans MS">This heading is abnormally large</h3>
+<h2> <a href="page/layout.html"> Click here for the layout playground! </a> </h2>
+<hr> <!--Horizontal Rules, (thin line across page)-->
+<p>
+	This is a paragraph<br>
+	<a href="https://www.youtube.com/"" target="_blank">
+		This is a link to youtube by the way :)
+	</a>
+</p>
+
+<pre style="font-family:Arial">
+	This text 
+				appears 
+						as-is
+		in the original
+	Docu  ment.
+</pre>
+
 <div>
-	<p class="coltxt">This paragraph changes colour!</p>
-	<button onclick="changeColour()">Change to Red</button>
+	<p>
+		Check out this sweet piece of art:
+	</p>
+	<img src="image/modernArt.png" width="500" alt="Behold: Beauty!">
 </div>
 
+<div>
+	<p class="coltxt" style="color: MediumSeaGreen; font-family: Comic sans MS; font-size:50px; background-color:powderblue; text-align:center">This paragraph changes colour!</p>
+	<button onclick="changeColour()">Change to Red</button>
+</div>
+<hr>
 <div><p id="expr">
 	<input id="txtA" type="text" style="width:100px" value="2"/>
 	<span id="opTxt">+</span>
@@ -34,5 +63,43 @@
 
 <script type="text/javascript" src="script/test.js"></script>
 
+
+<p>
+	Here are some formatting examples:<br>
+	This is <b>"bold"(b) text</b><br>
+	This is <strong>"strong"(strong) text</strong><br>
+	This is <i>"italic"(i) text</i><br>
+	This is <em>"emphasized"(em) text</em><br>
+	This is <small>"small"(small) text</small><br>
+	This is <mark>"marked"(mark) text</mark><br>
+	This is <del>"deleted"(del) text</del><br>
+	This is <ins>"inserted"(ins) text</ins><br>
+	This is <sub>"subscript"(sub) text</sub><br>
+	This is <sup>"supercript"(sup) text</sup><br>
+</p>
+
+<blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">
+	This is how to quote things.
+</blockquote>
+<p>
+	Here is how to <q> quote </q> in a paragraph.<br>
+	You should watch <cite>Hot Fuzz</cite>, it's a great movie!<br>
+	<bdo dir="rtl">Isn't this wonky?</bdo>
+</p>
+
+<p>
+	Here are a few colours:
+	<div style="background-color:Tomato">Tomato</div>
+	<div style="background-color:Orange">Orange</div>
+	<div style="border:2px dashed DodgerBlue">DodgerBlue</div>
+	<div style="border:2px dashed MediumSeaGreen">MediumSeaGreen</div>
+	<div style="border:2px solid Gray">Gray</div>
+	<div style="border:2px solid SlateBlue">SlateBlue</div>
+	<div style="border:4px solid Violet">Violet</div>
+	<div style="border:4px solid LightGray">LightGray</div>
+	<a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">+132 more</a>
+	<div style="background-color:rgb(123, 22, 200)">Custom</div>
+</p>
+<!--<p>Comment test</p>-->
 </body>
 </html>
