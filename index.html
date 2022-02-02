@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+	<title> An experiment </title>
+	<link rel="stylesheet" href="style.css">
+	<!-- ALTER SECURITY POLICY: meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.duckduckgo.com"> CAN'T GET THIS TO WORK-->
 </head>
 
 <body>
 
 
-<h1>This is a Heading</h1>
+<h1 id="top">This is a Heading</h1>
 <h6>This heading is much smaller </h6>
 <h3 style="font-size:400%; font-family:Comic sans MS">This heading is abnormally large</h3>
 <h2> <a href="page/layout.html"> Click here for the layout playground! </a> </h2>
+<p>
+	Preview<a href="index.html" target="playgroudPreview">(click to change)</a>:
+	</p>
+<iframe src="page/layout.html" title="layout playground" height="100" width="500" style="border:none" name="playgroudPreview"></iframe>
+
 <hr> <!--Horizontal Rules, (thin line across page)-->
 <p>
 	This is a paragraph<br>
-	<a href="https://www.youtube.com/"" target="_blank">
+	<a href="https://duckduckgo.com/" target="_blank">
 		This is a link to youtube by the way :)
 	</a>
 </p>
@@ -81,10 +88,21 @@
 <blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">
 	This is how to quote things.
 </blockquote>
+
 <p>
 	Here is how to <q> quote </q> in a paragraph.<br>
 	You should watch <cite>Hot Fuzz</cite>, it's a great movie!<br>
 	<bdo dir="rtl">Isn't this wonky?</bdo>
+</p>
+
+
+<p class = "txt"> <!-- several elements may use the same id-->
+	This paragraph has been styled with the "txt" class in "style.css"<br>
+	___
+</p>
+<p id="style2"> <!-- Id's are unique -->
+	This paragraph has been styled using its id "style2", via "style.css"<br>
+	___
 </p>
 
 <p>
@@ -101,5 +119,17 @@
 	<div style="background-color:rgb(123, 22, 200)">Custom</div>
 </p>
 <!--<p>Comment test</p>-->
+
+<p class = "txt">
+	<a href="#top">Return to top of page</a><br>
+	<a href="#expr">Return to calculator</a><br>
+</p>
+
+<div class="flex-container">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+</div>
+
 </body>
 </html>

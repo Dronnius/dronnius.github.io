@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+	<title> A layout playground </title>
+	<link rel="stylesheet" href="../style.css">
+	<!-- ALTER SECURITY POLICY: meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.duckduckgo.com"> CAN'T GET THIS TO WORK-->
 </head>
 
 <body>
 
-<h1> Hey... Do you come here often?</h1>
+<h1> Gaming (Steam) trends</h1>
+
+<div class="fc-horizontal"> <!--Main container-->
+	<div>	<!--left container-->
+		<div id="graph">	<!--graph container-->
+			<h4>Cool graph</h4>
+			<img src="../image/graph.png" width="500" alt="Line chart">
+		</div>
+		<div id="time">	<!--timeline-->
+			<h4>Timeline</h4>
+			<img src="../image/time.png" width="500" alt="Timeline">
+		</div>
+	</div>
+	<div> <!--right container-->
+		<div id=filter>	<!--active filters-->
+			<h4>Active Filters</h4>
+			<img src="../image/activeF.png" width="100" alt="Active filters">
+		</div>
+		<div id=select>	<!--filter selector-->
+			<h4>Filter selector</h4>
+		</div>
+	</div>	
+</div>
 
 </body>

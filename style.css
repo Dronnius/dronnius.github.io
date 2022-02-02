@@ -1,0 +1,92 @@
+body{
+
+}
+
+h1{
+	color: powderblue;
+}
+
+p{
+
+}
+
+.txt{
+	font-size: 130%;
+	color: gray;
+	margin: 30px;
+	padding: 20px;
+}
+
+#style2{
+	font-size: 120%;
+	color: Tomato;
+	margin: 20px;
+	padding: 0px;
+}
+
+.flex-container{
+	display:flex;
+	flex-direction: column; /*alts: column, reverse, row, row-reverse*/
+	flex-wrap: nowrap; /*alts: nowrap, wrap, wrap-reverse*/
+	/*flex-flow: column nowrap /* sets both properties above*/
+	
+	justify-content: center; /*center, flex-start, flex-end flex-end, space-around, space-between*/
+	align-items: center; /*center, flex-start, flex-end, stretch, baseline (NOT QUITE SURE HOW THESE THREE PROPERTIES WORK)*/
+	align-content: space-around; /*space-between, space-around, stretch, center, flex-start, flex-end*/
+	
+	
+}
+
+.fc-vertical{
+	/*display:flex;*/
+	flex-direction: column; /*alts: column, reverse, row, row-reverse*/
+	flex-wrap: nowrap; /*alts: nowrap, wrap, wrap-reverse*/
+	/*flex-flow: column nowrap /* sets both properties above*/
+	
+	justify-content: center; /*center, flex-start, flex-end flex-end, space-around, space-between*/
+	align-items: center; /*center, flex-start, flex-end, stretch, baseline (NOT QUITE SURE HOW THESE THREE PROPERTIES WORK)*/
+	align-content: space-around; /*space-between, space-around, stretch, center, flex-start, flex-end*/
+	
+	
+}
+
+.fc-horizontal{
+	display:flex;
+	color: gray;
+	font-size: 500%;
+	flex-direction: row; /*alts: column, reverse, row, row-reverse*/
+	flex-wrap: nowrap; /*alts: nowrap, wrap, wrap-reverse*/
+	/*flex-flow: column nowrap /* sets both properties above*/
+	
+	justify-content: center; /*center, flex-start, flex-end flex-end, space-around, space-between*/
+	align-items: stretch; /*center, flex-start, flex-end, stretch, baseline (NOT QUITE SURE HOW THESE THREE PROPERTIES WORK)*/
+	align-content: space-around	; /*space-between, space-around, stretch, center, flex-start, flex-end*/
+}
+
+#graph{
+	/*display:flex;*/
+	margin: 1em;
+	color: gray;
+	background-color: tomato;
+}
+
+#time{
+	/*display:flex;*/
+	margin: 1em;
+	color: blue;
+	background-color: orange;
+}
+
+#filter{
+	/*display:flex;*/
+	margin: 1em;
+	color: green;
+	background-color: blue;
+}
+
+#select{
+	/*display:flex;*/
+	margin: 1em;	
+	color: white;
+	background-color: purple;
+}
