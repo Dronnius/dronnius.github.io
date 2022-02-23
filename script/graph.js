@@ -25,7 +25,7 @@ d3.selectAll("div").on("mouseover", function(){		//event
 	d3.select(this).select("h4").style("color", colour)
 })
 
-var playerData = d3.csv("../data/GameVsMonthData.csv", function(data)
+var playerData = d3.csv("https://www.dronnius.github.io/data/GameVsMonthData.csv", function(data)
 {
 	for(var i = 0; i < data.length; i++)
 	{
